@@ -1,0 +1,98 @@
+body {
+    background: url(/assets/login/bg-login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-mata {
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.con-form-login {
+    max-width: 546px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 56px 100px 56px;
+}
+
+.form-login {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-form-login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2A93D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-form-login {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.con-desc {
+    max-width: 301px;
+    margin: 0 auto;
+}
+
+.con-form-username, .con-form-password {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+    padding: 0 20px;
+}
+
+.con-form-username input, .con-form-password input {
+    border: none;
+}
+
+.input-username, .input-password {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.input-username:focus, .input-password:focus {
+    outline: none;
+}
+
+.btn-login {
+    margin-top: 60px;
+    background: #2A93D5;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 0;
+}
