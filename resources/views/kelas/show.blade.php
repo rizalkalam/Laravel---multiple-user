@@ -1,0 +1,1 @@
+<h1>page ini telah dikunjungi sebanyak {{ $count }} kali</h1>

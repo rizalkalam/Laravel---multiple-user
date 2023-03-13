@@ -8,6 +8,7 @@ use Illuminate\Database\Seeder;
 use Database\Seeders\GuruSeeder;
 use Database\Seeders\RoleSeeder;
 use Database\Seeders\UserSeeder;
+use Database\Seeders\KelasSeeder;
 use Database\Seeders\MuridSeeder;
 
 class DatabaseSeeder extends Seeder
@@ -29,6 +30,7 @@ class DatabaseSeeder extends Seeder
            MuridSeeder::class,
            RoleSeeder::class,
            UserSeeder::class,
+           KelasSeeder::class,
         ]);
     }
 }
